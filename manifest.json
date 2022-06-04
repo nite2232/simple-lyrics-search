@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "lyrics search",
+    "version": "1.0",
+  
+    "background": {
+      "scripts": ["event.js"],
+      "persistent": false
+    },
+  
+    "permissions": [
+      "contextMenus",
+      "tabs"
+    ]
+  }
